@@ -1,18 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-class Form extends React.Component {
-  render() {
-      return (
-          <form onSubmit>
-              <label htmlFor='name'>Movie Name</label>
-              <input type='text' placeholder='name of the movie'></input>
-              <button type='submit'>Search</button>
-          </form>
-      )
-  }
-}
+import Form from './component/Form.js'
 
 class MovieInfo extends React.Component {
   render () {
