@@ -20,7 +20,7 @@ class App extends React.Component {
   constructor (props) {
       super(props)
       this.state = {
-        baseURL: 'https://www.omdbapi.com/?',
+        baseURL: 'http://www.omdbapi.com/?',
         apikey: 'apikey=' + '98e3fb1f',
         query: '&t=',
         movieTitle: '',
